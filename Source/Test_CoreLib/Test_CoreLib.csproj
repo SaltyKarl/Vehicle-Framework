@@ -52,14 +52,17 @@
 
 		<Reference Include="Unity.Mathematics">
 		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
 		</Reference>
 
 		<Reference Include="UnityEngine">
 		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
 		</Reference>
 
 		<Reference Include="UnityEngine.CoreModule">
 		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
 		</Reference>
 	</ItemGroup>
 
