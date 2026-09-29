@@ -49,6 +49,18 @@
 			<HintPath>$(OutDir)\CoreLib.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
+
+		<Reference Include="Unity.Mathematics">
+		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\Unity.Mathematics.dll</HintPath>
+		</Reference>
+
+		<Reference Include="UnityEngine">
+		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+
+		<Reference Include="UnityEngine.CoreModule">
+		  <HintPath>..\..\..\..\RimWorldLinux_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(UseKrafsPackageRef)' == 'true'">
