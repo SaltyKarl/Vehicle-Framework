@@ -20,6 +20,7 @@
 
     <Reference Include="DevTools">
       <HintPath>$(OutDir)\DevTools.dll</HintPath>
+      <Private>False</Private>
     </Reference>
 
     <Reference Include="SmashTools.PathFinder">
